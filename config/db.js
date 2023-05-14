@@ -8,7 +8,7 @@ mongoose.connect(uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
-    .then(con => console.log('Connected To DB'))
+    .then(con => console.log('Connected To DATABASE'))
     .catch(err => console.log('error', err))
 
 
