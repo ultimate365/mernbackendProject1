@@ -85,7 +85,7 @@ const emailSend = async (req, res) => {
         responseType.statusText = 'Success'
         // responseType.otp = otpcode
         responseType.message = 'OTP Sent, Please check your Email'
-        // mailer(rEmail, otpcode)
+        mailer(rEmail, otpcode)
     } else {
         responseType.statusText = 'Error'
         responseType.message = 'Email does not Exist'
